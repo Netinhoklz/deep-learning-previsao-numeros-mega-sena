@@ -72,11 +72,11 @@ Redes Neurais convencionais falham em loterias por tratarem os dados como ruído
 ### Pipeline de Processamento
 ```mermaid
 graph TD
-    A[📂 Base de Dados (Excel)] -->|Pandas| B(🔍 Pré-processamento)
+    A["📂 Base de Dados (Excel)"] -->|Pandas| B("🔍 Pré-processamento")
     
     subgraph Engenharia de Features
-        B -->|Cálculo| C[Frequências (60 dim)]
-        B -->|Deslizamento| D[Janela Temporal (Seq 10)]
+        B -->|Cálculo| C["Frequências (60 dim)"]
+        B -->|Deslizamento| D["Janela Temporal (Seq 10)"]
     end
     
     C & D --> E[Separação Treino/Teste]
@@ -99,9 +99,9 @@ graph TD
 graph LR
     Input((Entrada)) -->|Shape: 10 x 60| Conv1[Conv1D + Batch Norm]
     Conv1 --> ResBlock1[ResNet Block x3]
-    ResBlock1 --> Att[Multi-Head Attention (8 heads)]
+    ResBlock1 --> Att["Multi-Head Attention (8 heads)"]
     
-    Att -->|Context Vector| LSTM1[LSTM (128 units)]
+    Att -->|Context Vector| LSTM1["LSTM (128 units)"]
     LSTM1 --> Dropout[Dropout 0.3]
     Dropout --> Dense1[Dense 256 + ReLU]
     Dense1 --> Output((Softmax Output 60))
