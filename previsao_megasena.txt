@@ -1,0 +1,102 @@
+================================================================================
+PREVISAO DE JOGOS MEGA-SENA
+Baseado nos numeros mais frequentes por janela otima
+================================================================================
+
+Gerado em: 22/12/2025 08:28:35
+Ultimo concurso analisado: 2954
+Data do ultimo sorteio: 20/12/2025
+Previsao para o concurso: 2955
+
+================================================================================
+METODOLOGIA
+================================================================================
+
+Este relatorio apresenta jogos previstos para a Mega-Sena com base
+nos numeros mais frequentes dentro de janelas otimas de analise.
+
+As janelas otimas foram determinadas empiricamente atraves do notebook
+'analise_comparativa_metodos_v3.ipynb', que identificou os melhores
+periodos de analise para cada quantidade de numeros apostados.
+
+Para cada jogo, sao selecionados exatamente N numeros mais frequentes
+dentro da janela otima correspondente:
+
+- 6 numeros  -> os 6 mais frequentes na janela de 1000 jogos
+- 7 numeros  -> os 7 mais frequentes na janela de 1200 jogos
+- 8 numeros  -> os 8 mais frequentes na janela de 800 jogos
+- 9 numeros  -> os 9 mais frequentes na janela de 850 jogos
+- 10 numeros -> os 10 mais frequentes na janela de 850 jogos
+
+================================================================================
+JOGOS PREVISTOS PARA O CONCURSO 2955
+================================================================================
+
+############################################################
+# JOGO COM 6 NUMEROS
+# Janela Otima: 1000 concursos
+############################################################
+
+   Numeros ordenados por frequencia (maior -> menor):
+   10(127x) > 46(126x) > 38(125x) > 11(124x) > 37(124x) > 34(122x)
+
+   >>> JOGO: [ 10 - 11 - 34 - 37 - 38 - 46 ]
+
+############################################################
+# JOGO COM 7 NUMEROS
+# Janela Otima: 1200 concursos
+############################################################
+
+   Numeros ordenados por frequencia (maior -> menor):
+   10(156x) > 11(149x) > 37(144x) > 34(143x) > 35(142x) > 38(141x) > 25(140x)
+
+   >>> JOGO: [ 10 - 11 - 25 - 34 - 35 - 37 - 38 ]
+
+############################################################
+# JOGO COM 8 NUMEROS
+# Janela Otima: 800 concursos
+############################################################
+
+   Numeros ordenados por frequencia (maior -> menor):
+   38(101x) > 10(100x) > 46(98x) > 34(97x) > 11(95x) > 25(95x) > 37(95x) > 53(93x)
+
+   >>> JOGO: [ 10 - 11 - 25 - 34 - 37 - 38 - 46 - 53 ]
+
+############################################################
+# JOGO COM 9 NUMEROS
+# Janela Otima: 850 concursos
+############################################################
+
+   Numeros ordenados por frequencia (maior -> menor):
+   46(109x) > 38(105x) > 11(104x) > 10(103x) > 34(102x) > 25(100x) > 37(99x) > 53(98x) > 35(97x)
+
+   >>> JOGO: [ 10 - 11 - 25 - 34 - 35 - 37 - 38 - 46 - 53 ]
+
+############################################################
+# JOGO COM 10 NUMEROS
+# Janela Otima: 850 concursos
+############################################################
+
+   Numeros ordenados por frequencia (maior -> menor):
+   46(109x) > 38(105x) > 11(104x) > 10(103x) > 34(102x) > 25(100x) > 37(99x) > 53(98x) > 35(97x) > 44(97x)
+
+   >>> JOGO: [ 10 - 11 - 25 - 34 - 35 - 37 - 38 - 44 - 46 - 53 ]
+
+================================================================================
+RESUMO DOS JOGOS
+================================================================================
+
+    6 numeros (janela 1000): [ 10 - 11 - 34 - 37 - 38 - 46 ]
+    7 numeros (janela 1200): [ 10 - 11 - 25 - 34 - 35 - 37 - 38 ]
+    8 numeros (janela  800): [ 10 - 11 - 25 - 34 - 37 - 38 - 46 - 53 ]
+    9 numeros (janela  850): [ 10 - 11 - 25 - 34 - 35 - 37 - 38 - 46 - 53 ]
+   10 numeros (janela  850): [ 10 - 11 - 25 - 34 - 35 - 37 - 38 - 44 - 46 - 53 ]
+
+================================================================================
+AVISO IMPORTANTE
+================================================================================
+
+Este gerador e baseado em analise estatistica de frequencia historica.
+A Mega-Sena e um jogo de azar com resultados aleatorios e INDEPENDENTES.
+O desempenho passado NAO garante resultados futuros.
+Jogue com responsabilidade!
