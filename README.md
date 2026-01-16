@@ -97,7 +97,7 @@ graph TD
 
 ```mermaid
 graph LR
-    Input((Entrada)) -->|Shape: (10, 60)| Conv1[Conv1D + Batch Norm]
+    Input((Entrada)) -->|Shape: 10 x 60| Conv1[Conv1D + Batch Norm]
     Conv1 --> ResBlock1[ResNet Block x3]
     ResBlock1 --> Att[Multi-Head Attention (8 heads)]
     
